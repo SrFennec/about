@@ -151,3 +151,9 @@ img {
     font-size: 1em;
     color: black;
 }
+
+.profile-photo img{
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
