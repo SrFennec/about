@@ -1,7 +1,100 @@
 /* General */
+
 body{
     background-color: white;
+    transition: 2s;
 }
+
+
+.white-mode{
+    transition: 2s;
+}
+.white-mode .my-nav a{
+    transition: 2s;
+}
+
+.white-mode .card{
+    transition: 2s;
+}
+
+.white-mode .btn {
+    transition: 2s;
+}
+.white-mode .divider {
+    transition: 2s;
+}
+.white-mode tr:nth-child(odd) {
+    transition: 2s;
+}
+
+.white-mode  table,th,td {
+    transition: 2s;
+
+}
+.white-mode table>tbody>tr:nth-child(odd) {
+    transition: 2s;
+}
+.white-mode .my-copyright{
+    transition: 2s;
+}
+
+.white-mode .my-nav-content li a {
+    transition: 0s;
+}
+.white-mode .my-nav-content li a:hover {
+    transition: 0s;
+}
+
+.dark-mode {
+    transition: 2s;
+    background-color: rgb(34, 32, 52);
+    color: white;
+ 
+}
+.dark-mode .my-nav a{
+    transition: 2s;
+    color: white;
+}
+
+.dark-mode .card{
+    transition: 2s;
+    background-color: rgb(42,38,52);
+}
+
+.dark-mode .btn {
+    transition: 2s;
+    background-color: #EE6F73;
+}
+.dark-mode .divider {
+    transition: 2s;
+    opacity: 0.2;
+}
+.dark-mode tr:nth-child(odd) {
+    transition: 2s;
+    background-color: rgb(42,38,52);
+}
+
+.dark-mode  table,th,td {
+    transition: 2s;
+    border: none
+
+}
+
+.dark-mode .my-copyright{
+    transition: 2s;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+.dark-mode .my-nav-content li a {
+    transition: 0s;
+}
+.dark-mode .my-nav-content li a:hover {
+    transition: 0s;
+    background-color: rgb(42,38,52);;
+}
+
+
 /* The emerging W3C standard
    that is currently Firefox-only */
 * {
@@ -157,3 +250,61 @@ img {
     width: 30%;
     height: 30%;
 }
+
+.hover{
+    
+    
+    transition: all .2s ease-in-out;
+
+}
+.hover img{
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    
+}
+.hover:hover{
+    transform: scale(1.1);
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.table tr:hover {transform: scale(1.1);}
+
+
+
+table {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+table tr {
+    border-bottom: none
+}
+
+
+
+table>tbody>tr:nth-child(odd) {
+    background-color: rgba(242,242,242,0.5)
+}
+
+table>tbody>tr>td {
+    border-radius: 0
+}
+
+
+tr {
+    border-bottom: 1px solid rgba(0,0,0,0.12)
+}
+
+td,th {
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px
+}
+

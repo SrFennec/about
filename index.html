@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+    <title>Fenn Studios</title>
     <meta name="author" content="SrFennec">
     <link rel="stylesheet" href="style.css">
     <link rel="image_src" href="https://avatars.githubusercontent.com/u/105950466?v=4">
@@ -15,7 +16,8 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
-<body>
+<body  class="white-mode">
+    <input type="button" onclick="mode()" id = "togglemode"></input>
     <br>
     <div class="container">
         <div class="my-nav">    
@@ -27,6 +29,8 @@
 
                     <li><a href="https://twitter.com/FennStudios" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
 
+                    <li><a href="" target="_blank"><i class="fab fa-discord fa-2x"></i></a></li>
+
                     <li><a href="https://github.com/SrFennec" target="_blank" style="margin-right: 5px;"><i class="fab fa-github fa-2x"></i></a></li>
                 </ul>
                 
@@ -35,8 +39,8 @@
             <div class="my-nav-content">
                 <ul>
                     <!-- <li><a href="/">About</a></li> -->
-                    <li><a href="about/#mods">Mods</a></li>
-                    <li><a href="about/#projects">Projects</a></li>
+                    <li><a href="#mods">Mods</a></li>
+                    <li><a href="#projects">Projects</a></li>
 <!--                         <li><a href="">Art</a></li> -->
                 </ul>
 
@@ -51,11 +55,14 @@
             <p>
                 In the future, I will include more things but if u want to see what im doing u can join my discord server <a href="https://discord.gg/w4RTkY7n4w" target="_blank">Here!</a>
             </p>
-            
+            <br>
         </div>
         <div class="row">
             <div class="col s12 m12 l4" id="kenny-logo-col">
-                <img src="images/profile.png" style="border-radius: 50%; width: 80%; height: 80%;" alt="kenny-logo" id="kenny-logo" draggable="false" onContextMenu="return false;">
+                <div class="hover" >
+                    <img src="images/profile.png" >
+                </div>
+                
                 <br>
                 <p> 
                 
@@ -69,7 +76,7 @@
                     </p>
 
                     <br>
-                    <table class="striped">
+                    <table >
                         <tr>
                             <td><b>Coding</b></td>
                             <td>Python, Game Maker Language, Java, C++, HTML, CSS, JavaScript, Godot Language, C#</td>
@@ -98,78 +105,92 @@
 
         <div id="projects">
             <br><br>
-            <div class="my-header" id="java-tutorials">My projects</div>
+            <div class="my-header" id="mods">My projects</div>
             <br>
 
             <!-- Projects -->
             <div class="row">
+
+
+
             <!-- Nyctophobia-->
-            <div class="col s12 m6 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/nyctophobia.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">Nyctophobia</span>
-                    </div>
-                    <div class="card-action">
-                        <a >Coming Soon!</a>
+            <div class = "hover">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/nyctophobia.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Nyctophobia</span>
+                        </div>
+                        <div class="card-action">
+                            <a >Coming Soon!</a>
+                        </div>
                     </div>
                 </div>
-
-
-                
             </div>
+
+
 
             <!-- Smb Fennec Engine-->
-            <div class="col s12 m6 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/smbfennecengine.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">Mario Maker Fennec Engine</span>
-                    </div>
-                    <div class="card-action">
-                        <a >Coming Soon!</a>
+            <div class = "hover">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/smbfennecengine.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Mario Maker Fennec Engine</span>
+                        </div>
+                        <div class="card-action">
+                            <a >Coming Soon!</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
+
+            
              <!-- Fnaf vhs-->
-             <div class="col s12 m6 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/NotAviable.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">Fnaf Vhs</span>
-                    </div>
-                    <div class="card-action">
-                        <a >Coming Soon!</a>
+            <div class = "hover">
+                <div class="col s12 m6 l4">
+                    <div class="card" >
+                        <div id = "tables-dark">
+                        <div class="card-image">
+                            <img src="images/NotAviable.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Fnaf Vhs</span>
+                        </div>
+                        <div class="card-action">
+                            <a >Coming Soon!</a>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
+        </div>
             <div class="my-header" id="mods">Mods</div>
                 <br>
 
                 <!-- Projects -->
                 <div class="row">
 
-                    <!-- Doodle Jump -->
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="images/alphomus.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title">Alphomus</span>
-                            </div>
-                            <div class="card-action">
-                                <a >Coming Soon!</a>
-                                <!--<a href="https://imkennyyip.github.io/doodle-jump/" target="_blank">CurseForge</a>
-                                <a href="https://github.com/ImKennyYip/doodle-jump" target="_blank">Modrinth</a>-->
+                    <!-- Alphomus -->
+                    <div class = "hover">
+                        <div class="col s12 m6 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/alphomus.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Alphomus</span>
+                                </div>
+                                <div class="card-action">
+                                    <a >Coming Soon!</a>
+                                    <!--<a href="https://imkennyyip.github.io/doodle-jump/" target="_blank">CurseForge</a>
+                                    <a href="https://github.com/ImKennyYip/doodle-jump" target="_blank">Modrinth</a>-->
+                                </div>
                             </div>
                         </div>
                     </div>
