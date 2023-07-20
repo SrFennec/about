@@ -2,95 +2,124 @@
 
 body{
     background-color: white;
+}
+
+
+.transitions {
     transition: 2s;
 }
 
 
-.white-mode{
-    transition: 2s;
-}
-.white-mode .my-nav a{
+.transitions .my-nav a{
     transition: 2s;
 }
 
-.white-mode .card{
-    transition: 2s;
-}
 
-.white-mode .btn {
-    transition: 2s;
-}
-.white-mode .divider {
-    transition: 2s;
-}
-.white-mode tr:nth-child(odd) {
-    transition: 2s;
-}
 
-.white-mode  table,th,td {
-    transition: 2s;
-
-}
-.white-mode table>tbody>tr:nth-child(odd) {
+.transitions .card{
     transition: 2s;
 }
-.white-mode .my-copyright{
+.transitions .btn {
     transition: 2s;
 }
-
-.white-mode .my-nav-content li a {
+.transitions .divider {
+    transition: 2s;
+}
+.transitions tr {
     transition: 0s;
 }
-.white-mode .my-nav-content li a:hover {
+.transitions  table,th,td {
     transition: 0s;
+
+}
+.transitions table>tbody>tr:nth-child(odd) {
+    transition: background 2s;
+}
+.transitions .my-copyright{
+    transition: 2s;
+}
+
+.transitions .my-nav-content li a {
+    transition: color 2s;
+
+}
+.transitions .my-nav-content li a:hover {
+    transition: color  2s;
+}
+.transitions .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+.white-mode .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: blueviolet;
+    margin-right: 24px;
+    text-transform: uppercase
+}
+
+.white-mode .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    color:rgb(168, 148, 187)
+}
+
+
+
+
+
+
+
+.white-mode .mode-changer input {
+    background-color: whitesmoke;
 }
 
 .dark-mode {
-    transition: 2s;
     background-color: rgb(34, 32, 52);
     color: white;
- 
+    color-scheme: dark;
 }
 .dark-mode .my-nav a{
-    transition: 2s;
     color: white;
 }
-
-.dark-mode .card{
-    transition: 2s;
+.dark-mode .mode-changer input{
     background-color: rgb(42,38,52);
 }
+.dark-mode .card{
+    background-color: rgb(42,38,52);
+}
+.dark-mode .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: blueviolet;
+    margin-right: 24px;
+    text-transform: uppercase
+}
+
+.dark-mode .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    color:rgb(168, 148, 187)
+}
+
 
 .dark-mode .btn {
-    transition: 2s;
     background-color: #EE6F73;
 }
 .dark-mode .divider {
-    transition: 2s;
     opacity: 0.2;
 }
 .dark-mode tr:nth-child(odd) {
-    transition: 2s;
     background-color: rgb(42,38,52);
 }
 
 .dark-mode  table,th,td {
-    transition: 2s;
     border: none
 
 }
 
 .dark-mode .my-copyright{
-    transition: 2s;
     text-align: center;
     font-size: 1em;
     color: white;
 }
-.dark-mode .my-nav-content li a {
-    transition: 0s;
-}
+
 .dark-mode .my-nav-content li a:hover {
-    transition: 0s;
+
+    
     background-color: rgb(42,38,52);;
 }
 
@@ -104,14 +133,14 @@ body{
 
 /* Works on Chrome/Edge/Safari */
 *::-webkit-scrollbar {
-    width: 12px;
+    width: 6px;
 }
 
 
 *::-webkit-scrollbar-thumb {
+    background-clip:padding-box;
     background-color: lightgray;
-    border-radius: 20px;
-    border: 3px solid white;
+    scroll-padding-right: 12px;
 }
   
 
@@ -306,5 +335,14 @@ td,th {
     text-align: left;
     vertical-align: middle;
     border-radius: 2px
+}
+
+
+.mode-changer input{
+    border-width: 0px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
 }
 
