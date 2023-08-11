@@ -2,7 +2,7 @@
 
 body{
     background-color: white;
-    
+    width: 100;
 }
 
 
@@ -97,15 +97,23 @@ body{
 }
 
 .dark-mode {
-    background-color: rgb(34, 32, 52);
-    color: white;
+    background: linear-gradient(170deg, rgb(39, 2, 74), rgb(2,92,43), rgb(34, 32, 52)); 
+    background: linear-gradient(170deg, rgb(25, 2, 46), rgb(2, 43, 19), rgb(1, 1, 2)); 
+    background: rgb(34, 32, 52);
+
+        color: white;
     color-scheme: dark;
 }
+
+
+
+
 .dark-mode .my-nav a{
     color: white;
 }
 .dark-mode .mode-changer i{
     background-color: rgb(34, 32, 52);
+    transition: color 2s;
 }
 .dark-mode .card{
     
@@ -131,7 +139,7 @@ body{
     opacity: 0.2;
 }
 .dark-mode tr:nth-child(odd) {
-    background-color: rgb(42,38,52);
+    background-color: rgba(42,38,52,1);
 }
 
 .dark-mode  table,th,td {
@@ -207,12 +215,22 @@ img {
 
 /* Header */
 #my-title{
+    width: 100%;
     font-size: 8.5em;
+    padding-bottom: 120px;
+    padding-top: 60px;
     text-align: center;
 }
+.grad-background{
+    background: linear-gradient(180deg,  rgb(2, 43, 19),rgb(2, 43, 19),rgb(34, 32, 52)); 
 
+}
+.separation hr{
+    color: rgb(42,38,52);
+    background-color:rgb(42,38,52);
+}
 .my-header{
-    font-size: 1.5em;
+    font-size: 2em;
     
 }
 
@@ -373,3 +391,6 @@ td,th {
     padding: 5px 40px;
 }
 
+.my-img-slider *{
+
+}

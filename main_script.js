@@ -1,6 +1,7 @@
 
 window.onload = function(){
-     if(localStorage.getItem("mode") == "dark-mode"){
+     /*
+     if(localStorage.getItem("mode") != "dark-mode"){
           
           var  toggle = document.getElementById('togglemode'),
           body = document.querySelector('body')
@@ -16,6 +17,8 @@ window.onload = function(){
 
           
      }
+     */
+    
 }
 
 
@@ -47,3 +50,16 @@ function mode(){
     }
 
 }
+function random_splash(){
+     var i = Math.round(randomNumber(0,2));
+     do{
+          i = Math.round(randomNumber(0,2)); 
+     }while(document.getElementById("img"+i))
+     
+     document.getElementById("imgslider").innerHTML = '<center><img id="img'+i+'" style="width: 640px; height: 360px;" src="images/splash_'+i+'.png"></center>';
+}
+
+
+function randomNumber(min, max) {
+     return Math.random() * (max - min) + min;
+ }

@@ -1,11 +1,20 @@
 <!DOCTYPE html>
+<html>
 <head >
     <title>Fenn Studios</title>
+
+
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
     <meta name="author" content="SrFennec">
     <link rel="stylesheet" href="style.css">
     <link rel="image_src" href="https://avatars.githubusercontent.com/u/105950466?v=4">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/105950466?v=4">
 
+
+    
 
     <script src="main_script.js"></script>
 
@@ -19,22 +28,20 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
-<body  class="black-mode transitions">
+
+<body  class="dark-mode transitions">
+    <!-- 
     <br>
     <div class="mode-changer">
-        <i onclick="mode()"  class="fa fa-moon fa-2x grow"  id = "togglemode"></i>
+       <i style="transition: color 2s;" onclick="mode()"  class="fa fa-moon fa-2x grow"  id = "togglemode"></i>
     </div>
     
-    <br>
-    <div class="container">
+    <br>-->
+    <div class = "grad-background">
+
         <div class="my-nav">    
-            <div id="my-title"><b><a >Fenn Studios</a></b></div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <div id="my-title" ><b><a >Fenn Studios</a></b></div>
+            
             <div class="my-nav-content">
                 <ul>
                     
@@ -59,6 +66,11 @@
 
             </div>
         </div>
+
+    </div>
+    <br>
+    <div class="container" style="width: 80%;">
+        
         <div>
             <div class="my-header">About</div>
             <p>
@@ -70,9 +82,9 @@
             </p>
             <br>
         </div>
-        <div class="row">
+        <div class="row" >
             <div class="col s12 m12 l4" id="kenny-logo-col">
-                <div class="hover" >
+                <div class="hover" data-aos="zoom-in">
                     <img src="images/profile.png" >
                 </div>
                 
@@ -85,7 +97,8 @@
             <div class="col s12 m12 l8" id="my-summary-col">
                 <div class="my-summary">
                     <p>
-                        Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text look woah at that high quality filler text !.
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit torquent, diam pellentesque etiam fermentum maecenas aliquet consequat dictumst egestas, arcu aliquam est facilisis tellus. Leo donec neque convallis malesuada nullam nulla conubia tempor senectus, enim eros aliquam praesent cum non pellentesque velit, diam facilisis ut ullamcorper egestas parturient natoque eleifend.
+                        Woah thats high quality filler text !.
                     </p>
                     <p>
                         No seriusly that's high quality filler text.
@@ -94,7 +107,11 @@
                     <table >
                         <tr>
                             <td><b>Coding</b></td>
-                            <td>Python, Java, JavaScript, C, C++, C#, HTML, CSS, GDScript(Godot), gml(Game Maker Studio)</td>
+                            <td>Python, Java, JavaScript, C, C++, C#, HTML, CSS, GDScript(Godot), gml(Gms2)</td>
+                        </tr>
+                        <tr>
+                            <td><b>Modding</b></td>
+                            <td>Terraria, Minecraft</td>
                         </tr>
                         <tr>
                             <td><b>Technologies</b></td>
@@ -102,7 +119,7 @@
                         </tr>
                         <tr>
                             <td><b>Design</b></td>
-                            <td> Blender, BlockBench, Aseprite, P net, Cinema 4d</td>
+                            <td> Blender, BlockBench, Aseprite, Photoshop, Cinema 4d</td>
                         </tr>
                         <tr>
                             <td><b>Languages</b></td>
@@ -120,11 +137,11 @@
 
         <div id="projects">
             <br><br>
-            <div class="my-header" id="mods">My projects</div>
+            <div class="my-header" id="mods" data-aos="fade-right">My projects</div>
             <br>
 
             <!-- Projects -->
-            <div class="row">
+            <div class="row"  data-aos="fade-up">
 
 
 
@@ -188,14 +205,16 @@
             
         </div>
         <br>
-            <br>
-            <br>
-            <br>
-            <div class="my-header" id="mods">My mods</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="my-header" id="mods"  data-aos="fade-right">My mods</div>
             <br>
             
-                <!-- Projects -->
-                <div class="row">
+                <!-- Mods -->
+                <div class="row"  data-aos="fade-up">
 
                     <!-- Alphomus -->
                     <div class = "ease">
@@ -217,7 +236,7 @@
                         </div>
                     </div>
 
-                     <!-- Alphomus -->
+                     <!-- inventoryrework -->
                      <div class = "ease">
                         <div class="col s12 m6 l4">
                             <div class="card">
@@ -237,7 +256,7 @@
                         </div>
                     </div>
 
-                     <!-- Alphomus -->
+                     <!-- datapackhelper -->
                      <div class = "ease">
                         <div class="col s12 m6 l4">
                             <div class="card">
@@ -262,10 +281,32 @@
                 </div>
             </div>
         </div>
+
+
+        
+        <br>
+        <br>
+
+        <div id = "imgslider" onCLick="random_splash()" class="my-img-slider">
+            <center><img id="img0" style="width: 640px; height: 360px;" src="images/splash_0.png"></center>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <hr>
         <p style="text-align: right; padding-right: 16px;">Last Updated: August 8, 2023</p>
         <a href="https://www.kennyyip.com" target="_blank"><p class="my-copyright">SrFennec &copy; 2023</p></a>
+    
     </div>
 
 
 
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</html>
