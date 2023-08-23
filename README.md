@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <title>Fenn Studios</title>
+
+
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
+    <meta name="author" content="SrFennec">
+    <link rel="stylesheet" href="style.css">
+    <link rel="image_src" href="https://avatars.githubusercontent.com/u/105950466?v=4">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/105950466?v=4">
+
+
+    
+
+    <script src="main_script.js"></script>
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
+        
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body  class="dark-mode transitions">
+    <!-- 
+    <br>
+    <div class="mode-changer">
+       <i style="transition: color 2s;" onclick="mode()"  class="fa fa-moon fa-2x grow"  id = "togglemode"></i>
+    </div>
+    
+    <br>-->
+    <div class = "grad-background">
+
+        <div class="my-nav">    
+            <div id="my-title" ><b><a >Fenn Studios</a></b></div>
+            
+            <div class="my-nav-content">
+                <ul>
+                    
+                    <!--<li><a href="https://www.youtube.com/channel/UCYcolQ8qaCUREI_9Hkb9Ubg/?sub_confirmation=1" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a></li>-->
+
+                    <li><a href="https://twitter.com/FennStudios" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+
+                    <li><a href="" target="_blank"><i class="fab fa-discord fa-2x"></i></a></li>
+                    
+                    <li><a href="https://github.com/SrFennec" target="_blank" style="margin-right: 5px;"><i class="fab fa-github fa-2x"></i></a></li>
+                </ul>
+                
+
+            </div>
+            <div class="my-nav-content">
+                <ul>
+                    <!-- <li><a href="/">About</a></li> -->
+                    <li><a href="#mods">Mods</a></li>
+                    <li><a href="#projects">Projects</a></li>
+<!--                         <li><a href="">Art</a></li> -->
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="container" style="width: 80%;">
+        
+        <div>
+            <div class="my-header">About</div>
+            <p>
+                Welcome to my web page! Here you will find the list of images and gifs of random things i made. 
+               
+            </p>
+            <p>
+                In the future, I will include more things but if u want to see what new crazy thing im doing u can join my discord server!
+            </p>
+            <br>
+        </div>
+        <div class="row" >
+            <div class="col s12 m12 l4" id="kenny-logo-col">
+                <div class="hover" data-aos="zoom-in">
+                    <img src="images/profile.png" >
+                </div>
+                
+                <br>
+                <p> 
+                
+                </p>
+            </div>
+
+            <div class="col s12 m12 l8" id="my-summary-col">
+                <div class="my-summary">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit torquent, diam pellentesque etiam fermentum maecenas aliquet consequat dictumst egestas, arcu aliquam est facilisis tellus. Leo donec neque convallis malesuada nullam nulla conubia tempor senectus, enim eros aliquam praesent cum non pellentesque velit, diam facilisis ut ullamcorper egestas parturient natoque eleifend.
+                        Woah thats high quality filler text !.
+                    </p>
+                    <p>
+                        No seriusly that's high quality filler text.
+                    </p>
+                    <br>
+                    <table >
+                        <tr>
+                            <td><b>Coding</b></td>
+                            <td>Python, Java, JavaScript, C, C++, C#, HTML, CSS, GDScript(Godot), gml(Gms2)</td>
+                        </tr>
+                        <tr>
+                            <td><b>Modding</b></td>
+                            <td>Terraria, Minecraft</td>
+                        </tr>
+                        <tr>
+                            <td><b>Technologies</b></td>
+                            <td>Node.js, React, Rails, Materialize, Bootstrap, Git</td>
+                        </tr>
+                        <tr>
+                            <td><b>Design</b></td>
+                            <td> Blender, BlockBench, Aseprite, Photoshop, Cinema 4d</td>
+                        </tr>
+                        <tr>
+                            <td><b>Languages</b></td>
+                            <td>Spanish (native), English.</td>
+                        </tr>
+                    </table>
+<!--                             <span style="font-size: smaller">*written Cantonese with Traditional Chinese characters used in Hong Kong</span> -->
+                </div>
+                <br>
+            </div>
+        </div>
+        
+
+        
+
+        <div id="projects">
+            <br><br>
+            <div class="my-header" id="mods" data-aos="fade-right">My projects</div>
+            <br>
+
+            <!-- Projects -->
+            <div class="row"  data-aos="fade-up">
+
+
+
+            <!-- Nyctophobia-->
+            <div class = "ease">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/nyctophobia.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Nyctophobia</span>
+                            <span>A hardcore survival game with a focus on realism...</span>
+                        </div>
+                        <div class="card-action">
+                            <a >Coming Soon!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Smb Fennec Engine-->
+            <div class = "ease">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/smbfennecengine.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Mario Maker Fennec Engine</span>
+                            <span>Make and share your levels...</span>
+                        </div>
+                        <div class="card-action">
+                            <a >Coming Soon!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+             <!-- Fnaf vhs-->
+            <div class = "ease">
+                <div class="col s12 m6 l4">
+                    <div class="card" >
+                        <div class="card-image">
+                            <img src="images/NotAviable.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Fnaf Vhs</span>
+                            <span>Fnaf remake...</span>
+                        </div>
+                        <div class="card-action">
+                            <a >Coming Soon!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="my-header" id="mods"  data-aos="fade-right">My mods</div>
+            <br>
+            
+                <!-- Mods -->
+                <div class="row"  data-aos="fade-up">
+
+                    <!-- Alphomus -->
+                    <div class = "ease">
+                        <div class="col s12 m6 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/alphomus.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Alphomus</span>
+                                    <span>Adds everything i wanted in the game...</span>
+                                </div>
+                                <div class="card-action">
+                                    <a >Coming Soon!</a>
+                                    <!--<a href="https://imkennyyip.github.io/doodle-jump/" target="_blank">CurseForge</a>
+                                    <a href="https://github.com/ImKennyYip/doodle-jump" target="_blank">Modrinth</a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- inventoryrework -->
+                     <div class = "ease">
+                        <div class="col s12 m6 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/inventoryrework.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Fennec's Inventory Rework</span>
+                                    <span>Just a visual rework to the minecraft invenotry...</span>
+                                </div>
+                                <div class="card-action">
+                                    <a style="color: rgb(16, 121, 103);" href="https://modrinth.com/mod/fennec-ivr">Modrinth</a>
+                                    <!--<a href="https://imkennyyip.github.io/doodle-jump/" target="_blank">CurseForge</a>
+                                    <a href="https://github.com/ImKennyYip/doodle-jump" target="_blank">Modrinth</a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- datapackhelper -->
+                     <div class = "ease">
+                        <div class="col s12 m6 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/datapackhelper.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Datapack Helper</span>
+                                    <span>A mod that helps server side content using datapacks more easier...</span>
+                                </div>
+                                <div class="card-action">
+                                    <a style="color: rgb(16, 121, 103);" href="https://modrinth.com/mod/datapack-helper">Modrinth</a>
+                                    <!--<a href="https://imkennyyip.github.io/doodle-jump/" target="_blank">CurseForge</a>
+                                    <a href="https://github.com/ImKennyYip/doodle-jump" target="_blank">Modrinth</a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+
+
+        
+        <br>
+        <br>
+
+        <div id = "imgslider" onCLick="random_splash()" class="my-img-slider">
+            <center><img id="img0" style="width: 640px; height: 360px;" src="images/splash_0.png"></center>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <hr>
+        <p style="text-align: right; padding-right: 16px;">Last Updated: August 8, 2023</p>
+        <a href="https://www.kennyyip.com" target="_blank"><p class="my-copyright">SrFennec &copy; 2023</p></a>
+    
+    </div>
+
+
+
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</html>
