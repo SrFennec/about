@@ -120,17 +120,34 @@ body{
     background-color: rgb(42,38,52);
 }
 .dark-mode .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: rgb(134, 134, 134);
-
+    color: rgb(44, 43, 43);
+    background-color: rgb(50, 204, 178);
+    padding: 2%;
+    border-radius: 4px;
+    transition: padding 0.4s;
     margin-right: 24px;
     text-transform: uppercase;
     
 }
 
 .dark-mode .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
-    color: rgb(134, 134, 134);
+    background-color: rgb(50, 204, 178);
+    padding: 3%;
+    transition: padding 0.4s;
+    border-radius: 4px;
 }
 
+.dark-mode .card .card-action .unaviable a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: rgb(44, 43, 43);
+    background-color: rgb(36, 36, 36);
+
+    
+}
+
+.dark-mode .card .card-action .unaviable a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    background-color: rgb(50, 204, 178);
+    padding: 2%;
+}
 
 .dark-mode .btn {
     background-color: #EE6F73;
@@ -217,12 +234,15 @@ img {
 #my-title{
     width: 100%;
     font-size: 8.5em;
-    padding-bottom: 120px;
-    padding-top: 60px;
+    padding-bottom: 100px;
+    letter-spacing: -1.6px;
+    padding-top: 80px;
     text-align: center;
 }
 .grad-background{
-    background: linear-gradient(180deg,  rgb(2, 43, 19),rgb(2, 43, 19),rgb(34, 32, 52)); 
+    background: linear-gradient(180deg,  rgba(2, 43, 19,0.7),rgba(2, 43, 19,0.8),rgba(34, 32, 52,0.9999))
+    , 
+    url(images/grain.svg); 
 
 }
 .separation hr{
@@ -393,4 +413,21 @@ td,th {
 
 .my-img-slider *{
 
+}
+
+
+.my-subtitle{
+    width: 100%;
+    font-size: 5.5em;
+    padding-bottom: 60px;
+    padding-top: 160px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.my-splash img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 640px; height: 360px;
 }

@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head >
-    <title>Fenn Studios</title>
 
+
+
+<head >
+
+
+    <title>Fenn Studios</title>
+    <style>
+        body { margin: 0; }
+    </style>
 
     
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -27,9 +34,14 @@
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+        
+
 </head>
 
 <body  class="dark-mode transitions">
+
     <!-- 
     <br>
     <div class="mode-changer">
@@ -156,8 +168,8 @@
                             <span class="card-title">Nyctophobia</span>
                             <span>A hardcore survival game with a focus on realism...</span>
                         </div>
-                        <div class="card-action">
-                            <a >Coming Soon!</a>
+                        <div class="card-action unaviable">
+                            <a style="padding: 2%; color: rgb(182, 182, 182); background-color: rgb(24, 24, 24);">Coming Soon!</a>
                         </div>
                     </div>
                 </div>
@@ -176,8 +188,8 @@
                             <span class="card-title">Mario Maker Fennec Engine</span>
                             <span>Make and share your levels...</span>
                         </div>
-                        <div class="card-action">
-                            <a >Coming Soon!</a>
+                        <div class="card-action unaviable">
+                            <a style="padding: 2%; color: rgb(182, 182, 182); background-color: rgb(24, 24, 24);">Coming Soon!</a>
                         </div>
                     </div>
                 </div>
@@ -196,8 +208,8 @@
                             <span class="card-title">Fnaf Vhs</span>
                             <span>Fnaf remake...</span>
                         </div>
-                        <div class="card-action">
-                            <a >Coming Soon!</a>
+                        <div class="card-action unaviable">
+                            <a style="padding: 2%; color: rgb(182, 182, 182); background-color: rgb(24, 24, 24);">Coming Soon!</a>
                         </div>
                     </div>
                 </div>
@@ -227,8 +239,8 @@
                                     <span class="card-title">Alphomus</span>
                                     <span>Adds everything i wanted in the game...</span>
                                 </div>
-                                <div class="card-action">
-                                    <a >Coming Soon!</a>
+                                <div class="card-action ">
+                                    <a style="padding: 2%; color: rgb(182, 182, 182); background-color: rgb(24, 24, 24);">Coming Soon!</a>
                                     <!--<a href="https://imkennyyip.github.io/doodle-jump/" target="_blank">CurseForge</a>
                                     <a href="https://github.com/ImKennyYip/doodle-jump" target="_blank">Modrinth</a>-->
                                 </div>
@@ -248,7 +260,7 @@
                                     <span>Just a visual rework to the minecraft invenotry...</span>
                                 </div>
                                 <div class="card-action">
-                                    <a style="color: rgb(16, 121, 103);" href="https://modrinth.com/mod/fennec-ivr">Modrinth</a>
+                                    <a  href="https://legacy.curseforge.com/minecraft/mc-mods/fennecs-inventory-rework">Curse Forge</a>
                                     <!--<a href="https://imkennyyip.github.io/doodle-jump/" target="_blank">CurseForge</a>
                                     <a href="https://github.com/ImKennyYip/doodle-jump" target="_blank">Modrinth</a>-->
                                 </div>
@@ -268,7 +280,7 @@
                                     <span>A mod that helps server side content using datapacks more easier...</span>
                                 </div>
                                 <div class="card-action">
-                                    <a style="color: rgb(16, 121, 103);" href="https://modrinth.com/mod/datapack-helper">Modrinth</a>
+                                    <a href="https://modrinth.com/mod/datapack-helper">Modrinth</a>
                                     <!--<a href="https://imkennyyip.github.io/doodle-jump/" target="_blank">CurseForge</a>
                                     <a href="https://github.com/ImKennyYip/doodle-jump" target="_blank">Modrinth</a>-->
                                 </div>
@@ -280,20 +292,32 @@
                     
                 </div>
             </div>
+            
+        <br>
+        <br>
+        <div class="my-header" id="random"  data-aos="fade-right">Random Shit</div>
+        <br>
+        <br>
+        <br>
+        
+        <div id = "imgslider"  onCLick='get_splash("splashs/splash_",7,0,false)' class="my-img-slider my-splash">
+            <img data-aos="flip-up" id="img0" src="images/splashs/splash_0.png">
         </div>
 
+        <script type="text/javascript">
+            get_splash("splashs/splash_",7,0,false);
+        </script>
 
         
         <br>
         <br>
+        <br>
 
-        <div id = "imgslider" onCLick="random_splash()" class="my-img-slider">
-            <center><img id="img0" style="width: 640px; height: 360px;" src="images/splash_0.png"></center>
+        
         </div>
 
-        <br>
-        <br>
-        <br>
+
+        
         <hr>
         <p style="text-align: right; padding-right: 16px;">Last Updated: August 8, 2023</p>
         <a href="https://www.kennyyip.com" target="_blank"><p class="my-copyright">SrFennec &copy; 2023</p></a>
@@ -308,5 +332,5 @@
     <script>
         AOS.init();
     </script>
-
+    
 </html>
