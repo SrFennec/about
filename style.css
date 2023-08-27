@@ -358,7 +358,7 @@ img {
     height: 80%;
     
 }
-.hover:hover{
+.hover{
     transform: scale(1.1);
 }
 
